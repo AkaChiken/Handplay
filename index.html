@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="boigu.css"
+<link rel="stylesheet" href="boigu.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,32 +10,24 @@
 </head>
 <body>
     <div class="navbar-haut">
-        <a href="boigu.html" class="logo"><img src="logo-no-background.png" alt="logo" class="logohautdroit"></a>
-        <div class="navbar-haut-right">
-          <a class="active" href="#home">Favoris</a>
-          <a href="Catégories.html">Catégories</a>
-          <a href="#about">Se Connecter</a>
+        <div class="nav-part">
+            <a href="index.html" class="logo"><img src="logo-no-background.png" alt="logo" class="logohautdroit"></a>
+        </div>
+        <div class="nav-part left">
+          <a class="nav-link active" href="#home" id="fav">Go Fullscreen</a>
+          <a class="nav-link" href="Catégories.html">Catégories</a>
+          <a class="nav-link" href="#about">Se Connecter</a>
         </div>
     </div>
-    <div class="raw">
-        <div class="column">
-            <img src="logo.ph.png" class="logo">
-            <span class="bomba">Text below the image</span>
-        </div>
-        <div class="column">
-            <img src="logo.xham.png" class="logo">
-            <span class="bomba">Text below the image</span>
-        </div>
-        <div class="column">
-            <img src="logo.ytbk.png" class="logo">
-            <span class="bomba">text below the image</span>
-        </div>
-        <div class="column">
-            <img src="logo.rddit.png" class="logo">
-            <span class="bomba">Text below the image</span>
-        </div>
+    <div class="bas">
+        <a href="https://github.com/AkaChiken/" id="git"><img src="25231.png" alt="gg"></a>
     </div>
-    
-    
+    <div class="score">
+        <h1 id="scoreboard">score:</h1>
+        <div id='seconds-counter'> </div>
+    </div>
+    <script src="app.js">
+
+    </script>
 </body>
 </html>
